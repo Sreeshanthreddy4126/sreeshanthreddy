@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    border: solid 1px;
+    width: 300px;
+    position: fixed;
+    height: 100%;
+    background-color: rgb(45, 235, 19);
+    padding-top: 20px;
+    list-style: none;
+}
+#text1{
+    color: rgb(252, 4, 4);
+    font-size: 30px;
+    font-weight: bold;
+}
+#text2{
+    color: rgb(243, 53, 6);
+    font-size: 30px;
+    font-weight: bold;
+}
+ul li{
+    border: solid 1px wheat;
+    height: 40px;
+    width: 120px;
+    margin-left: 60px;
+    background-color: rgb(210, 245, 10);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+ul li a{
+    color: rgb(58, 6, 247);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: antiquewhite;
+}
+#Home{
+    border: solid 1px;
+    height: 600px;
+    background-color: rgb(231, 247, 202);
+    padding-left: 315px;
+}
+#text3{
+    color: rgb(13, 51, 87);
+}
+#text4{
+    color: rgb(13, 56, 94);
+}
+#text5{
+    font-size: 20px;
+    font-weight: bold;
+}
+#bt1{
+    border-color: aliceblue;
+    background-color: rgb(224, 247, 16);
+    height: 40px;
+    width: 150px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(47, 22, 155);
+    margin-top: 10px;
+    margin-left: 35%;
+}
+#bt1:hover{
+    background-color: rgb(247, 245, 243);
+}
+#About{
+    border: solid 1px;
+    height: 600px;
+    background-color: rgb(217, 236, 164);
+    padding-left: 315px;
+}
+#Abuotme{
+    font-size: 50px;
+    color: rgb(6, 6, 61);
+
+}
+html{
+    scroll-behavior: smooth;
+    color: black;
+}
